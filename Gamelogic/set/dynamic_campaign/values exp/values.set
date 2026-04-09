@@ -76,8 +76,10 @@
 		{AvailableMatchups
 			"usa ger" "ger usa"
 			"usa rus" "rus usa"
+			"ger rus" "rus ger"
 			"fin rus" "rus fin"
 			"fin usa" "usa fin"
+			"fin eng" "eng fin"
 		}
 	}
 	{Finest_Hour
@@ -86,6 +88,8 @@
 			"eng rus" "rus eng"
 			"ger rus" "rus ger"
 			"fin rus" "rus fin"
+			"fin usa" "usa fin"
+			"fin eng" "eng fin"
 		}
 	}
 	{West_FH
@@ -94,6 +98,9 @@
 			"eng ger" "ger eng"
 			"usa rus" "rus usa"
 			"eng rus" "rus usa"
+			"fin rus" "rus fin"
+			"fin usa" "usa fin"
+			"fin eng" "eng fin"
 		}
 	}
 }

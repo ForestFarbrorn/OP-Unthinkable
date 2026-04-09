@@ -1,7 +1,7 @@
 {VeryHigh
-	{GlobalMaxCP 550}
-	;{StageCP 50 60 70 80 90}
-	{StageCP 60 80 100 120 140}
+	{GlobalMaxCP 950}
+	;{StageCP 50 60 70 80 90}		;// AP cost to deploy each stage. 50 AP for stage 1
+	{StageCP 300 300 300 120 140}	;// Manpower per deployment stage, stage 1 through 5
 	{SpecialCP 50}					;// airstrikes special tab
 	{EmplacementCP 50}				;// buildable with engineer
 	{Bots
@@ -52,7 +52,7 @@
 	}
 	{Resources
 		{MP ;// Manpower (generic money)
-			{StartVal 1200}
+			{StartVal 72000}
 			{WinGain "1:300 4:350 6:400 8:500 10:700 12:900 14:1200"} ;// games played : MP gain
 			{LoseGain "1:50"}
 			{MapRewards	;//Bonus resources on various game types (a game can only be one randomly chosen type). Types: Airfield, Ammodepot, Bonus, Factory, Research.
@@ -64,7 +64,7 @@
 			}
 		}
 		{SP ;// Special Points (airstrikes)
-			{StartVal 5}
+			{StartVal 120}
 			{WinGain 1}
 			{LoseGain 0}
 			{MapRewards
@@ -72,7 +72,7 @@
 			}
 		}
 		{AP ;// Ammo points
-			{StartVal 1200}
+			{StartVal 72000}
 			{WinGain "5:600 10:1100 15:1600"}
 			{LoseGain "1:350"}
 			{MapRewards
@@ -84,7 +84,7 @@
 			}
 		}
 		{RP ;// Research points
-			{StartVal 10}
+			{StartVal 300}
 			{WinGain 5}
 			{LoseGain 2}
 			{MapRewards
@@ -93,9 +93,9 @@
 			}
 		}
 		{Budget
-			{Start "0:125 4:150 8:200 12:250 16:300 20:350"} ;// games played : starting CP of each match 
+			{Start "0:500 4:500 8:500 12:500 16:500 20:350"} ;// games played : starting CP of each match 
 			{PointsPerSecond 0.25} ;// CP income
-			{Limit 500} ;// Max CP 
+			{Limit 900} ;// Max CP 
 		}
 	}
 	{ResupplyCost
