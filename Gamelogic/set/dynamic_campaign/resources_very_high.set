@@ -1,14 +1,14 @@
 {VeryHigh
-	{GlobalMaxCP 950}
+	{GlobalMaxCP 9500}
 	;{StageCP 50 60 70 80 90}		;// AP cost to deploy each stage. 50 AP for stage 1
-	{StageCP 300 300 300 120 140}	;// Manpower per deployment stage, stage 1 through 5
-	{SpecialCP 50}					;// airstrikes special tab
-	{EmplacementCP 50}				;// buildable with engineer
+	{StageCP 300 300 300 300 300}	;// Manpower per deployment stage, stage 1 through 5
+	{SpecialCP 990}					;// airstrikes special tab
+	{EmplacementCP 990}				;// buildable with engineer
 	{Bots
-		{StartMP	1.00 min 1200 attackerMultiplier 1.75}
-		{FinishMP	1.00 min 1200 attackerMultiplier 1.75}
+		{StartMP	1.00 min 9600 attackerMultiplier 1.25}
+		{FinishMP	1.00 min 9600 attackerMultiplier 1.25}
 		{CP
-			{Base "0:150"} ;// seconds : CP
+			{Base "0:950"} ;// seconds : CP
 			{RoundMultiplier "0:0.55 2:0.6 4:0.7 6:0.8 8:0.9 12:1.0"} ;// games played : multiplier for CP
 			{AttackMultiplier 100}
 		}
