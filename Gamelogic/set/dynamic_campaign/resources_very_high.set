@@ -5,10 +5,10 @@
 	{SpecialCP 990}					;// airstrikes special tab
 	{EmplacementCP 990}				;// buildable with engineer
 	{Bots
-		{StartMP	1.00 min 9600 attackerMultiplier 1.25}
-		{FinishMP	1.00 min 9600 attackerMultiplier 1.25}
+		{StartMP	1.00 min 1200 attackerMultiplier 1.75}
+		{FinishMP	1.00 min 1200 attackerMultiplier 1.75}
 		{CP
-			{Base "0:950"} ;// seconds : CP
+			{Base "0:150"} ;// seconds : CP
 			{RoundMultiplier "0:0.55 2:0.6 4:0.7 6:0.8 8:0.9 12:1.0"} ;// games played : multiplier for CP
 			{AttackMultiplier 100}
 		}
